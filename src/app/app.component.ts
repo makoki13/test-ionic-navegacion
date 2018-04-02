@@ -9,7 +9,7 @@ import { PrincipalPage } from '../pages/index.paginas';
 })
 export class MyApp {
   rootPage:any = PrincipalPage;
-
+  
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
